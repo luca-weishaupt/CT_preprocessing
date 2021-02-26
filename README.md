@@ -20,23 +20,10 @@ To run, simply configure the following user variables (clearly distinguished and
 
 the "parent_folder" should be the path to the folder that contains the DICOM information
 
-The parent folder should contain one folder for each patient, i.e.
---parent_folder/
-&nbsp;&nbsp;|---patient1/
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- CT1
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- CT2
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- ...
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- RP
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- RS
-  |---patient2/
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- CT1/
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- ...
-  |---...
+The parent folder should contain one folder for each patient
 
 The "path" variable is the path to the destination folder to save your images and masks. Thus it needs to contain an "image" and a "label" folder
----path/
-    |--- image/
-    |--- label/
+
 
 The "resolution" variable lets you control to what voxel resolution you want to resample your volume. It is specified in vox/mm"
 
