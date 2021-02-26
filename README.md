@@ -22,15 +22,15 @@ the "parent_folder" should be the path to the folder that contains the DICOM inf
 
 The parent folder should contain one folder for each patient, i.e.
 --parent_folder/
-   |---patient1/
-        |--- CT1
-        |--- CT2
-        |--- ...
-        |--- RP
-        |--- RS
+&nbsp;&nbsp;|---patient1/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- CT1
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- CT2
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- RP
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- RS
   |---patient2/
-       |--- CT1/
-       |--- ...
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- CT1/
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;|--- ...
   |---...
 
 The "path" variable is the path to the destination folder to save your images and masks. Thus it needs to contain an "image" and a "label" folder
