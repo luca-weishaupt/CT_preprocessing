@@ -13,6 +13,7 @@ Finally, we check which pixels/voxels fall into these newly created contours in 
 
 
 ![points_to_contours](slices_points.png)
+![points to contours updated](pointstocontours.png)
 
 Everything is run from the "applicator_extractor.py" script
 
