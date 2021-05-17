@@ -1,4 +1,4 @@
-# Milosh Cathter Digitization
+# CT Preprocessing
 
 
 When you create the catheter structure it takes the manual series of 3D points and converts them into catheter volumes. The script can be found in the src/Catheter_Ellipse_Path_Finder.py . Here is how it works:
